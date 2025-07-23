@@ -1,0 +1,24 @@
+Implementation‑Intention Template
+================================
+
+Follow these steps to create an effective implementation intention:
+
+1. **Identify your goal.**
+   - Example: “I want to finish reading a research article each week.”
+
+2. **Choose a clear cue (when/where).**
+   - When will you perform the action? (e.g. “Every Tuesday and Thursday at 7 am”)
+   - Where will you be? (e.g. “At my desk”) 
+
+3. **Specify the action (how).**
+   - Describe exactly what you will do when the cue occurs. (e.g. “I will read one section of the article for 20 minutes.”)
+
+4. **Write your if‑then plan.**
+   - “If it is [cue], then I will [action].”
+
+5. **Make it visible.**
+   - Keep your plan where you will see it (calendar reminder, sticky note, etc.).
+
+Example implementation intention:
+
+If it is 7 am on Tuesday or Thursday and I am at my desk, then I will read one section of my selected article for 20 minutes.

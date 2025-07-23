@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--
+  Main entry point for the productivity framework site.
+  This document is hand‑crafted to avoid reliance on external frameworks or package registries.
+  It uses plain HTML and CSS along with a small JavaScript file for interactivity.
+  Content is organised into five sequential sections: inspiration, motivation, intention,
+  habits and discipline. Each section includes research‑backed summaries, deeper dives,
+  best‑practice tips and downloadable tools.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Science‑Based Productivity Framework</title>
+    <meta
+      name="description"
+      content="Learn a science‑based process for getting things done: inspiration, motivation, intention, habits and discipline."
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <h1>Science‑Based Productivity Framework</h1>
+        <p class="tagline">Inspiration → Motivation → Intention → Habits → Discipline</p>
+      </div>
+      <div class="progress-container" aria-hidden="true">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </header>
+    <nav id="sidebar" class="sidebar" aria-label="Section navigation">
+      <ul>
+        <li><a href="#inspiration">Inspiration</a></li>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#intention">Intention</a></li>
+        <li><a href="#habits">Habits</a></li>
+        <li><a href="#discipline">Discipline</a></li>
+      </ul>
+    </nav>
+    <main id="main-content" class="content">
+      <!-- Inspiration Section -->
+      <section id="inspiration" class="section" aria-labelledby="heading-inspiration">
+        <h2 id="heading-inspiration">Inspiration</h2>
+        <p>
+          Inspiration is a motivational state that is evoked by an external stimulus
+          and compels you to act. Scientific studies describe inspiration as having
+          three core characteristics: it is <strong>evoked</strong>, not initiated
+          volitionally; it involves a sense of <strong>transcendence</strong> as new
+          possibilities become vividly apparent; and it generates an
+          <strong>approach motivation</strong> to express or actualise that new vision
+         【706007025187768†L245-L256】.
+        </p>
+        <details class="collapsible">
+          <summary>How inspiration works</summary>
+          <p>
+            According to Thrash and Elliot’s tripartite model, inspiration comprises two
+            processes. Being <em>inspired by</em> involves recognising the intrinsic value of a
+            stimulus—such as a breathtaking sunrise or a powerful idea—and feeling your
+            eyes opened to new possibilities【706007025187768†L245-L276】. Being
+            <em>inspired to</em> involves the motivational drive to express or implement that
+            new vision【706007025187768†L245-L276】. These processes work together: the
+            evoking stimulus sustains the inspired state, while the
+            approach‑oriented urge pushes you towards action.
+          </p>
+          <p>
+            Importantly, inspiration is not itself the origin of creative ideas—it is a
+            response to them【706007025187768†L323-L337】. Once you recognise a valuable
+            possibility, inspiration mediates between that idea and your subsequent
+            actions, motivating you to turn the vision into reality【706007025187768†L292-L305】.
+          </p>
+        </details>
+        <h3>Best‑practice tips</h3>
+        <ul>
+          <li>Expose yourself to diverse stimuli—books, conversations, art or nature—to
+            increase opportunities for being inspired.</li>
+          <li>Keep an inspiration journal. When something sparks an idea or feeling, jot
+            down what evoked it and how you might act on it.</li>
+          <li>Use inspiration deliberately: once inspired, identify a small step you can
+            take to begin realising your vision.</li>
+        </ul>
+        <h3>Downloadable tools</h3>
+        <p>
+          <a href="content/templates/inspiration_capture.txt" download>Inspiration capture worksheet</a>
+        </p>
+        <!-- Simple quiz -->
+        <div class="quiz" aria-labelledby="quiz-inspiration-heading">
+          <h3 id="quiz-inspiration-heading">Quick quiz</h3>
+          <p>Which of the following is <em>not</em> one of the core characteristics of inspiration?</p>
+          <form>
+            <label><input type="radio" name="quiz-inspiration" value="evoked" /> Evocation</label><br />
+            <label><input type="radio" name="quiz-inspiration" value="transcendence" /> Transcendence</label><br />
+            <label><input type="radio" name="quiz-inspiration" value="approach" /> Approach motivation</label><br />
+            <label><input type="radio" name="quiz-inspiration" value="analysis" /> Analytical calculation</label>
+          </form>
+          <button type="button" class="quiz-submit" data-answer="analysis">Check answer</button>
+          <p class="quiz-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- Motivation Section -->
+      <section id="motivation" class="section" aria-labelledby="heading-motivation">
+        <h2 id="heading-motivation">Motivation</h2>
+        <p>
+          Motivation drives behaviour by providing a reason to act. Two broad types of
+          motivation have been identified. <strong>Intrinsic motivation</strong> arises from
+          internal needs for competence, autonomy and relatedness【414999437146836†L253-L260】.
+          <strong>Extrinsic motivation</strong> relies on external incentives or rewards and
+          is governed by cost–benefit calculations【414999437146836†L273-L288】. In practice,
+          most goal pursuit involves a blend of both types, but intrinsic motivation
+          tends to sustain engagement better over time.
+        </p>
+        <details class="collapsible">
+          <summary>Digging deeper</summary>
+          <p>
+            Self‑determination theory posits that people are most motivated when they feel
+            autonomous (acting out of free choice), competent (capable of success) and
+            connected to others【414999437146836†L253-L260】. Extrinsic models, such as
+            reinforcement learning and cost–benefit analyses, highlight the role of
+            rewards and punishments【414999437146836†L273-L288】. However, over‑reliance on
+            external incentives can undermine intrinsic motivation and lead to
+            short‑lived behaviour change【414999437146836†L336-L347】.
+          </p>
+          <p>
+            Early psychological models emphasised will and intention (Lewin, Tolman),
+            while economic models conceptualise motivated choice as a calculation of
+            benefits versus costs【414999437146836†L273-L295】. A balanced approach to
+            motivation recognises that goals should align with personal values and
+            provide meaningful rewards, while also considering external constraints and
+            incentives.
+          </p>
+        </details>
+        <h3>Best‑practice tips</h3>
+        <ul>
+          <li>Set goals that satisfy your need for autonomy, competence and connection.</li>
+          <li>Use external rewards sparingly and strategically—for example, to kick‑start a
+            behaviour—but avoid letting them replace internal reasons for action.</li>
+          <li>Reflect on why a goal matters to you personally; intrinsic meaning helps
+            sustain motivation.</li>
+        </ul>
+        <h3>Downloadable tools</h3>
+        <p>
+          <a href="content/templates/goal_clarity_checklist.txt" download>Goal‑clarity checklist</a>
+        </p>
+        <!-- Quiz -->
+        <div class="quiz" aria-labelledby="quiz-motivation-heading">
+          <h3 id="quiz-motivation-heading">Quick quiz</h3>
+          <p>According to self‑determination theory, which need is <strong>not</strong> part of intrinsic motivation?</p>
+          <form>
+            <label><input type="radio" name="quiz-motivation" value="autonomy" /> Autonomy</label><br />
+            <label><input type="radio" name="quiz-motivation" value="competence" /> Competence</label><br />
+            <label><input type="radio" name="quiz-motivation" value="relatedness" /> Relatedness</label><br />
+            <label><input type="radio" name="quiz-motivation" value="wealth" /> Wealth</label>
+          </form>
+          <button type="button" class="quiz-submit" data-answer="wealth">Check answer</button>
+          <p class="quiz-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- Intention Section -->
+      <section id="intention" class="section" aria-labelledby="heading-intention">
+        <h2 id="heading-intention">Intention</h2>
+        <p>
+          Forming a clear intention bridges the gap between wanting to do something and
+          actually doing it. Implementation intentions are “if‑then” plans that specify
+          when, where and how to act—for example, “If it is 6 pm on Monday, then I will
+          jog in the park.” Meta‑analytic evidence shows that creating such plans
+          dramatically improves goal attainment (effect size d≈0.65 across 94 studies)【254798157386042†L228-L243】.
+        </p>
+        <details class="collapsible">
+          <summary>How implementation intentions help</summary>
+          <p>
+            Implementation intentions increase the mental accessibility of the critical
+            cue (the “if” part) and forge a strong association between the cue and the
+            desired action【254798157386042†L245-L253】. This strategic automation means
+            that when the specified situation arises, the behaviour is triggered
+            immediately and efficiently, without requiring further deliberation【254798157386042†L245-L257】.
+          </p>
+          <p>
+            Gollwitzer and Sheeran’s meta‑analysis demonstrates that implementation
+            intentions benefit individuals and groups across domains, from health
+            behaviours to academic tasks【254798157386042†L228-L243】. The key is
+            specificity: vague plans like “exercise more” do little to change behaviour.
+          </p>
+        </details>
+        <h3>Best‑practice tips</h3>
+        <ul>
+          <li>Identify a precise cue (time, place or event) that will remind you to act.</li>
+          <li>Describe the action in concrete terms so that it is easy to execute when
+            the cue appears.</li>
+          <li>Keep your plan visible (e.g. on a sticky note or in your calendar) until it
+            becomes automatic.</li>
+        </ul>
+        <h3>Downloadable tools</h3>
+        <p>
+          <a href="content/templates/implementation_intention.txt" download>Implementation‑intention template</a>
+        </p>
+        <!-- Quiz -->
+        <div class="quiz" aria-labelledby="quiz-intention-heading">
+          <h3 id="quiz-intention-heading">Quick quiz</h3>
+          <p>What is the most important feature of an implementation intention?</p>
+          <form>
+            <label><input type="radio" name="quiz-intention" value="vague" /> Keeping it vague</label><br />
+            <label><input type="radio" name="quiz-intention" value="specific" /> Specifying when, where and how to act</label><br />
+            <label><input type="radio" name="quiz-intention" value="reward" /> Tying it to a reward</label><br />
+            <label><input type="radio" name="quiz-intention" value="group" /> Planning with a group</label>
+          </form>
+          <button type="button" class="quiz-submit" data-answer="specific">Check answer</button>
+          <p class="quiz-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- Habits Section -->
+      <section id="habits" class="section" aria-labelledby="heading-habits">
+        <h2 id="heading-habits">Habits</h2>
+        <p>
+          Habits are automatic behaviours triggered by cues in our environment. They form
+          when we repeat an action consistently in the same context, strengthening the
+          association between context and behaviour. In one study, daily repetition of
+          a health‑promoting behaviour led to an asymptotic increase in automaticity
+          that plateaued after about 66 days【371555136634746†L228-L241】. Missing an
+          occasional repetition did not halt the process【371555136634746†L228-L241】.
+        </p>
+        <details class="collapsible">
+          <summary>Phases of habit formation</summary>
+          <p>
+            Habit formation begins with the <strong>initiation phase</strong>, in which you
+            choose a specific behaviour and the context in which to perform it【371555136634746†L263-L272】. The
+            <strong>learning phase</strong> follows: repeating the action in the chosen
+            context builds the cue–behaviour association. Finally, during the
+            <strong>stability phase</strong>, the behaviour requires minimal effort and becomes
+            part of your routine【371555136634746†L263-L272】.
+          </p>
+          <p>
+            Simpler actions become habitual more quickly than complex routines, and
+            progress resumes even if you occasionally miss a repetition【371555136634746†L228-L241】.
+            Selecting a self‑determined, meaningful behaviour and linking it to a
+            consistent cue are key to success【371555136634746†L243-L259】.
+          </p>
+        </details>
+        <h3>Best‑practice tips</h3>
+        <ul>
+          <li>Choose a simple action that moves you toward your goal and perform it daily in
+            response to the same cue.</li>
+          <li>Start small—small changes are easier to maintain and build confidence【371555136634746†L349-L359】.</li>
+          <li>Track your repetitions; seeing your streak grow reinforces the habit.</li>
+        </ul>
+        <h3>Downloadable tools</h3>
+        <p>
+          <a href="content/templates/habit_tracker.csv" download>Habit tracker (CSV)</a>
+        </p>
+        <!-- Quiz -->
+        <div class="quiz" aria-labelledby="quiz-habits-heading">
+          <h3 id="quiz-habits-heading">Quick quiz</h3>
+          <p>According to research, how long does it typically take for a habit to reach peak automaticity?</p>
+          <form>
+            <label><input type="radio" name="quiz-habits" value="21" /> 21 days</label><br />
+            <label><input type="radio" name="quiz-habits" value="66" /> About 66 days</label><br />
+            <label><input type="radio" name="quiz-habits" value="100" /> 100 days</label><br />
+            <label><input type="radio" name="quiz-habits" value="365" /> One year</label>
+          </form>
+          <button type="button" class="quiz-submit" data-answer="66">Check answer</button>
+          <p class="quiz-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- Discipline Section -->
+      <section id="discipline" class="section" aria-labelledby="heading-discipline">
+        <h2 id="heading-discipline">Discipline</h2>
+        <p>
+          Discipline enables you to persist in the face of temptations and setbacks.
+          Psychological research distinguishes between <strong>self‑control</strong>—the
+          ability to regulate attention, emotion and behaviour in the presence of
+          temptation—and <strong>grit</strong>—the passion and perseverance to pursue a
+          long‑term superordinate goal【664687497731561†L187-L203】. High self‑control early in
+          life predicts later academic achievement, prosocial behaviour, employment,
+          earnings and health【664687497731561†L187-L203】, while grit predicts the completion
+          of challenging long‑term goals such as graduating high school, finishing
+          military training and remaining in demanding professions【664687497731561†L223-L256】.
+        </p>
+        <details class="collapsible">
+          <summary>Self‑control vs grit</summary>
+          <p>
+            Self‑control and grit are related but distinct. Self‑control involves
+            resisting hourly temptations and aligning your actions with any valued goal
+            despite more alluring alternatives【664687497731561†L187-L203】. Grit entails
+            staying committed to one high‑level, long‑term goal through adversity and
+            over years or decades【664687497731561†L223-L256】. Self‑control is linked to
+            everyday functioning (e.g. grades and health), whereas grit predicts
+            exceptional achievements【664687497731561†L263-L274】.
+          </p>
+        </details>
+        <h3>Best‑practice tips</h3>
+        <ul>
+          <li>Clarify your long‑term vision and break it into manageable sub‑goals.</li>
+          <li>Anticipate temptations and decide in advance how to respond; this uses
+            implementation intentions to bolster self‑control.</li>
+          <li>Celebrate small wins to maintain motivation and build perseverance.</li>
+        </ul>
+        <h3>Downloadable tools</h3>
+        <p>
+          <a href="content/templates/discipline_plan.txt" download>Discipline planner</a>
+        </p>
+        <!-- Quiz -->
+        <div class="quiz" aria-labelledby="quiz-discipline-heading">
+          <h3 id="quiz-discipline-heading">Quick quiz</h3>
+          <p>Which construct refers to the passion and perseverance for a long‑term goal?</p>
+          <form>
+            <label><input type="radio" name="quiz-discipline" value="selfcontrol" /> Self‑control</label><br />
+            <label><input type="radio" name="quiz-discipline" value="grit" /> Grit</label><br />
+            <label><input type="radio" name="quiz-discipline" value="motivation" /> Motivation</label><br />
+            <label><input type="radio" name="quiz-discipline" value="habit" /> Habit</label>
+          </form>
+          <button type="button" class="quiz-submit" data-answer="grit">Check answer</button>
+          <p class="quiz-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          © 2025 Science‑Based Productivity Framework. All rights reserved.
+          <a href="content/references.json" download>References (APA)</a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
